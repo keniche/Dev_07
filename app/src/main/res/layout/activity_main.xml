@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:columnCount="6"
+        app:rowCount="2">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="cymbal1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cymbal1"
+            app:layout_column="1"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="0" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="tom1"
+            android:src="@drawable/tom1"
+            app:layout_column="2"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="0" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="tom2"
+            android:src="@drawable/tom2"
+            app:layout_column="3"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="0" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="cymbal2"
+            android:src="@drawable/cymbal2"
+            app:layout_column="4"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="0" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="hihat"
+            android:src="@drawable/hihat"
+            app:layout_column="0"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="snare"
+            android:src="@drawable/snare"
+            app:layout_column="1"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="bass"
+            android:src="@drawable/bass"
+            app:layout_column="2"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="tom3"
+            android:src="@drawable/tom3"
+            app:layout_column="4"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="1" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="cymbal3"
+            android:src="@drawable/cymbal3"
+            app:layout_column="5"
+            app:layout_gravity="fill_vertical|fill_horizontal"
+            app:layout_row="1" />
+
+    </android.support.v7.widget.GridLayout>
+</RelativeLayout>
